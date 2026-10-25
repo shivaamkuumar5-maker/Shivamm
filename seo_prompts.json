@@ -1,0 +1,31 @@
+{
+  "app_info": {
+    "latest_version_code": 1,
+    "latest_version_name": "1.0.0",
+    "is_mandatory": false,
+    "is_app_active": true,
+    "maintenance_message": "",
+    "update_title": "YouTube 2026 AI Algorithm Update Available!",
+    "update_message": "Naya SEO Algorithm update aaya hai. Behtar views aur reach ke liye update karein.",
+    "store_url": "https://play.google.com/store/apps/details?id=com.tuberankace.shivamm"
+  },
+  "remote_prompts": {
+    "master_seo_prompt": "Act as an elite YouTube SEO strategist strictly engineered for the 2026 YouTube search and recommendation algorithm. For the target topic [USER_TOPIC], generate a full metadata package: 1. 5 High-CTR click-worthy titles (40-60 characters, curiosity gap, brackets [2026], emotional trigger). 2. Long-tail keyword optimized description with 2-line hook before the fold, structured chapter timestamps, creator links, and channel hashtags. 3. 20 high-ranking semantic tags under 490 characters. 4. 5 hyper-targeted trending hashtags. 5. A 3-second viral hook script (visual cue + verbal pattern interrupt). 6. An algorithmic pinned comment with an open loop question to drive comment velocity.",
+    "title_prompt": "Generate 5 high-CTR (15%+), click-worthy YouTube titles for [USER_TOPIC] strictly under 60 characters. Use extreme curiosity gaps, brackets [2026], numbers, and power emotion words. Avoid generic clickbait.",
+    "description_prompt": "Generate a high-converting YouTube description for [USER_TOPIC]. First 2 lines must be an irresistible hook before Show More. Follow with semantic LSI keyword paragraphs, structured chapter timestamps, creator social links, and relevant tags.",
+    "tags_prompt": "Generate 20 high-search-volume, long-tail semantic tags for [USER_TOPIC]. Format strictly as comma-separated values totaling under 490 characters. No numbering or hashtags.",
+    "hashtags_prompt": "Generate 5 trending, high-velocity YouTube hashtags for [USER_TOPIC] prefixed with #. Prioritize niche-specific and algorithm-trending tags.",
+    "hook_script_prompt": "Write a 3-second viral retention hook script for [USER_TOPIC]. Provide both a visual pattern interrupt (what viewer sees on screen) and a verbal hook sentence that eliminates the curiosity gap without spoiling the climax.",
+    "pinned_comment_prompt": "Craft an algorithmic engagement pinned comment for [USER_TOPIC]. Use a conversational open loop and a polarizing or curious question that compels viewers to reply immediately.",
+    "viral_strategy_prompt": "Provide a YouTube 2026 algorithm blueprint for [USER_TOPIC]: optimal video duration, pacing rules to retain 60%+ APV at 30 seconds, and thumbnail-title synergy rules for browse features.",
+    "ai_coach_audit_prompt": "Analyze the channel metadata and performance metrics for [USER_TOPIC]. Identify CTR bottlenecks, search ranking leaks, retention drop-off reasons, and provide 3 immediate fixes."
+  },
+  "promoted_apps": [
+    {
+      "app_name": "Tube Rank AI",
+      "app_icon": "https://raw.githubusercontent.com/shivaamkuumar5/TubeRankAI/main/icons/tuberank.png",
+      "app_desc": "Best YouTube Tag, Hook & Metadata Generator",
+      "app_url": "https://play.google.com/store/apps/details?id=com.tuberankace.shivamm"
+    }
+  ]
+}
