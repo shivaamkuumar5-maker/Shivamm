@@ -1,31 +1,115 @@
 {
+  "config_version": 2,
   "app_info": {
     "latest_version_code": 1,
-    "latest_version_name": "1.0.0",
+    "latest_version_name": "1.0",
     "is_mandatory": false,
     "is_app_active": true,
-    "maintenance_message": "",
-    "update_title": "YouTube 2026 AI Algorithm Update Available!",
-    "update_message": "Naya SEO Algorithm update aaya hai. Behtar views aur reach ke liye update karein.",
-    "store_url": "https://play.google.com/store/apps/details?id=com.tuberankace.shivamm"
+    "target_year": 0,
+    "maintenance_title": "Scheduled Server Upgrade",
+    "maintenance_message": "We are upgrading our YouTube SEO & AI engines. Please check back in a few minutes.",
+    "maintenance_cta_url": "",
+    "maintenance_cta_label": "Check Status / Download",
+    "update_title": "New Algorithm & Feature Update Available!",
+    "update_message": "A faster SEO engine and improved YouTube growth tools are ready. Download the latest release now.",
+    "download_url": "https://github.com/shivaamkuumar5-maker/Shivamm/releases",
+    "download_button_label": "Download Latest App"
+  },
+  "announcement_banner": {
+    "enabled": false,
+    "banner_id": "banner_v1",
+    "title": "",
+    "message": "",
+    "action_label": "",
+    "action_target": ""
+  },
+  "ai_router": {
+    "custom_proxy_url": "",
+    "pollinations_endpoint": "https://text.pollinations.ai/openai",
+    "pollinations_models": [
+      "openai",
+      "mistral",
+      "qwen"
+    ],
+    "llm7_endpoint": "https://api.llm7.io/v1/chat/completions",
+    "llm7_model": "default",
+    "kilo_endpoint": "https://api.kilo.ai/api/gateway/chat/completions",
+    "kilo_model": "kilo-auto/free",
+    "ovh_endpoint": "https://oai.endpoints.kepler.ai.cloud.ovh.net/v1/chat/completions",
+    "ovh_models": [
+      "Qwen3.8-27B",
+      "Meta-Llama-3_3-70B-Instruct"
+    ],
+    "provider_priority": [
+      "proxy",
+      "pollinations",
+      "llm7",
+      "kilo",
+      "ovh"
+    ],
+    "cooldown_seconds": 10
   },
   "remote_prompts": {
-    "master_seo_prompt": "Act as an elite YouTube SEO strategist strictly engineered for the 2026 YouTube search and recommendation algorithm. For the target topic [USER_TOPIC], generate a full metadata package: 1. 5 High-CTR click-worthy titles (40-60 characters, curiosity gap, brackets [2026], emotional trigger). 2. Long-tail keyword optimized description with 2-line hook before the fold, structured chapter timestamps, creator links, and channel hashtags. 3. 20 high-ranking semantic tags under 490 characters. 4. 5 hyper-targeted trending hashtags. 5. A 3-second viral hook script (visual cue + verbal pattern interrupt). 6. An algorithmic pinned comment with an open loop question to drive comment velocity.",
-    "title_prompt": "Generate 5 high-CTR (15%+), click-worthy YouTube titles for [USER_TOPIC] strictly under 60 characters. Use extreme curiosity gaps, brackets [2026], numbers, and power emotion words. Avoid generic clickbait.",
-    "description_prompt": "Generate a high-converting YouTube description for [USER_TOPIC]. First 2 lines must be an irresistible hook before Show More. Follow with semantic LSI keyword paragraphs, structured chapter timestamps, creator social links, and relevant tags.",
-    "tags_prompt": "Generate 20 high-search-volume, long-tail semantic tags for [USER_TOPIC]. Format strictly as comma-separated values totaling under 490 characters. No numbering or hashtags.",
-    "hashtags_prompt": "Generate 5 trending, high-velocity YouTube hashtags for [USER_TOPIC] prefixed with #. Prioritize niche-specific and algorithm-trending tags.",
-    "hook_script_prompt": "Write a 3-second viral retention hook script for [USER_TOPIC]. Provide both a visual pattern interrupt (what viewer sees on screen) and a verbal hook sentence that eliminates the curiosity gap without spoiling the climax.",
-    "pinned_comment_prompt": "Craft an algorithmic engagement pinned comment for [USER_TOPIC]. Use a conversational open loop and a polarizing or curious question that compels viewers to reply immediately.",
-    "viral_strategy_prompt": "Provide a YouTube 2026 algorithm blueprint for [USER_TOPIC]: optimal video duration, pacing rules to retain 60%+ APV at 30 seconds, and thumbnail-title synergy rules for browse features.",
-    "ai_coach_audit_prompt": "Analyze the channel metadata and performance metrics for [USER_TOPIC]. Identify CTR bottlenecks, search ranking leaks, retention drop-off reasons, and provide 3 immediate fixes."
+    "algorithm_patch_notes": "",
+    "call1_seo_system_prompt": "",
+    "refine_system_prompt": "",
+    "ai_coach_system_prompt": "",
+    "master_seo_prompt": "",
+    "title_prompt": "",
+    "description_prompt": "",
+    "tags_prompt": "",
+    "hashtags_prompt": "",
+    "hook_script_prompt": "",
+    "pinned_comment_prompt": "",
+    "viral_strategy_prompt": "",
+    "ai_coach_audit_prompt": ""
   },
-  "promoted_apps": [
-    {
-      "app_name": "Tube Rank AI",
-      "app_icon": "https://raw.githubusercontent.com/shivaamkuumar5/TubeRankAI/main/icons/tuberank.png",
-      "app_desc": "Best YouTube Tag, Hook & Metadata Generator",
-      "app_url": "https://play.google.com/store/apps/details?id=com.tuberankace.shivamm"
+  "psychology_rules": {
+    "speaking_tones": [
+      "Desi Friendly",
+      "High-Energy",
+      "Emotional Storytelling",
+      "Serious Pro",
+      "Roast / Fun"
+    ],
+    "banned_slop_phrases": [
+      "Namaskar dosto",
+      "Aaj hum janenge",
+      "In today's fast-paced world",
+      "Dive deep",
+      "Game-changer",
+      "Welcome back guys",
+      "Main description likh raha hoon",
+      "Here is"
+    ],
+    "offline_hooks": []
+  },
+  "timing_matrix": {
+    "anti_congestion_minutes": [14, 18, 23, 37, 43, 49]
+  },
+  "ui_remote_content": {
+    "quick_topics": [],
+    "viral_hacks": [],
+    "feature_flags": {
+      "show_trend_finder": true,
+      "show_tag_extractor": true,
+      "show_spy_channel": true,
+      "show_ai_coach": true
     }
-  ]
+  },
+  "monetization_and_limits": {
+    "ads_enabled": true,
+    "banner_enabled": true,
+    "interstitial_enabled": true,
+    "app_open_enabled": true,
+    "rewarded_enabled": true,
+    "ad_free_start_hour_ist": -1,
+    "ad_free_end_hour_ist": -1,
+    "interstitial_cooldown_seconds": 0,
+    "app_open_cooldown_seconds": 120,
+    "daily_free_tokens": 5,
+    "monthly_free_credits": 50,
+    "rewarded_bonus_tokens": 5
+  },
+  "promoted_apps": []
 }
